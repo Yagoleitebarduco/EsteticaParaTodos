@@ -1,0 +1,196 @@
+footer {
+    background-color: #777E9A;
+}
+
+.geral_footer {
+    padding: 30px;
+    display: flex;   
+    gap: 64px;
+    flex-wrap: wrap; /* Adiciona flexibilidade no layout */
+}
+
+.logo_footer {
+    padding: 20px;
+}
+
+.logo_footer p {
+    color: #ffffff;
+    font-size: 20px;
+    width: 400px;
+}
+
+.links_site {
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.links_site ul {
+    list-style: none;
+}
+
+.links_site h3 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.links_site li {
+    margin: 8px;
+}
+
+.links_site li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.links_site li a:hover {
+    padding: 10px;
+    transition: 0.25s;
+    width: 100%;
+}
+
+.redesSocias {
+    display: flex;
+    padding: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    gap: 40px;
+    color: #ffffff;
+    flex-wrap: wrap; /* Flexibilidade para o layout */
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+}
+
+.redes img {
+    width: 41px;
+    height: 41px;
+}
+
+.dra {
+    padding: 20px;
+    margin-left: 400px;
+    display: flex;
+    gap: 54px;
+    color: #ffffff;
+}
+
+
+
+@media (max-width: 1280px) {
+    .geral_footer {
+        margin-left: 80px;
+        gap: 40px;
+    }
+
+    .logo_footer p {
+        width: 300px;
+    }
+
+    .links_site {
+        margin-left: 50px;
+    }
+
+    .redesSocias {
+        margin-left: -20px;
+    }
+
+    hr {
+        width: 800px;
+    }
+
+    .dra {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .geral_footer {
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .links_site {
+        margin-left: 50px;
+        font-size: 16px;
+    }
+
+    .redesSocias {
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+    .dra {
+        margin-left: 200px;
+        flex-direction: column; /* Coloca os elementos em coluna em telas menores */
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .geral_footer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .logo_footer img {
+        margin-left: 220px;
+    }
+
+    .logo_footer p {
+        width: 100%;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .links_site {
+        margin-left: -50px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .redesSocias {
+        margin-left: -50px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hr_footer {
+        width: 650px;
+    }
+
+    .dra {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        width: 508px;
+    }
+    
+    .logo_footer p {
+        font-size: 16px;
+    }
+
+    .links_site h3 {
+        font-size: 24px;
+    }
+
+    .links_site li {
+        font-size: 14px;
+    }
+
+    .redes img {
+        width: 36px;
+        height: 36px;
+    }
+}

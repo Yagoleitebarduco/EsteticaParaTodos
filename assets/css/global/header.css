@@ -1,0 +1,154 @@
+@font-face {
+    font-family: playfair_regular;
+    src: local(playfair_regular), url(/assets/font/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf);
+}
+
+.barra_pesquisa {
+    background-color: #777E9A;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.barra {
+    display: flex;
+    background-color: #8E94AD;
+    align-items: center;
+    gap: 148px;
+}
+
+.logo {
+    padding: 8px;
+    margin-left: 80px;
+}
+
+.list {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: "playfair_regular";
+    transition: 0.25s;
+}
+
+.list a:hover {
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgba(119, 126, 154, 0.8);
+    transition: 0.25s;
+    width: 100%;
+}
+
+@media (max-width: 1280px) {
+    header {
+        width: 970px;
+    }
+    
+    .barra {
+        display: inline;
+    }
+
+    .list {
+        gap: 40px;
+        margin-left: 10px;
+    }
+
+    .logo {
+        margin-left: 400px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    header {
+        width: 954px;
+    }
+    
+    .barra {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .list {
+        gap: 40px;
+        margin-left: 20px;
+    }
+
+    .list a {
+        font-size: 24px;
+    }
+
+    .list a:hover {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 768px;
+    }
+
+    .barra {
+        gap: 20px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .list a {
+        font-size: 22px;
+    }
+
+    .list a:hover {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        width: 508px;
+    }
+    
+    .barra_pesquisa {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .barra {
+        gap: 10px;
+    }
+
+    .logo {
+        padding: 5px;
+    }
+
+    .list {
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .list a {
+        font-size: 20px;
+    }
+
+    .list a:hover {
+        font-size: 22px;
+    }
+}

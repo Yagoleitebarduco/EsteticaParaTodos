@@ -1,0 +1,111 @@
+.txt_cabecalho {
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.txt_cabecalho h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+.txt_cabecalho p {
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.rotinasDaPele {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+.rotinasDaPele h2 {
+    font-size: 40px;
+    color: #B8C6E8; 
+}
+
+.rotinasDaPele p {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.rotinasDaPele ul {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+@media (max-width: 1280px) {
+    .txt_cabecalho h1 {
+        font-size: 50px;
+    }
+
+    .txt_cabecalho p {
+        font-size: 28px;
+    }
+
+    .rotinasDaPele h2 {
+        font-size: 32px;
+    }
+
+    .rotinasDaPele p, .rotinasDaPele ul {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .txt_cabecalho h1 {
+        font-size: 42px;
+    }
+
+    .txt_cabecalho p {
+        font-size: 24px;
+    }
+
+    .rotinasDaPele h2 {
+        font-size: 28px;
+    }
+
+    .rotinasDaPele p, .rotinasDaPele ul {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .txt_cabecalho h1 {
+        font-size: 36px;
+    }
+
+    .txt_cabecalho p {
+        font-size: 20px;
+    }
+
+    .rotinasDaPele h2 {
+        font-size: 24px;
+    }
+
+    .rotinasDaPele p, .rotinasDaPele ul {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .txt_cabecalho h1 {
+        font-size: 30px;
+    }
+
+    .txt_cabecalho p {
+        font-size: 18px;
+    }
+
+    .rotinasDaPele h2 {
+        font-size: 20px;
+    }
+
+    .rotinasDaPele p, .rotinasDaPele ul {
+        font-size: 14px;
+    }
+}

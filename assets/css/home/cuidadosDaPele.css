@@ -1,0 +1,170 @@
+.cuidadosDaPele h1 {
+    color: #738CCB;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px;
+}
+
+.pt1 {
+    display: flex;
+    width: 1732px;
+    margin-left: 150px;
+    gap: 70px;
+}
+
+.img_CuidadosPele img {
+    border-radius: 20px;
+}
+
+.txt_cuidadosPele {
+    text-align: center;
+}
+
+.txt_cuidadosPele h1 {
+    color: #000000;
+    font-size: 80px;
+}
+
+.txt_cuidadosPele p {
+    margin-left: 200px;
+    width: 800px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+@media (max-width: 1280px) {
+    .cuidadosDaPele h1 {
+        margin-left: -300px;
+    }
+    
+    .img_CuidadosPele img {
+        width: 400px;
+    }
+
+    .pt1 {
+        margin-left: 50px;
+        gap: 5px;
+    }
+
+    .txt_cuidadosPele h1 {
+        width: 500px;
+        margin-left: 15px;
+        font-size: 40px;
+    }
+
+    .txt_cuidadosPele p {
+        margin-left: 20px;
+        width: 480px;
+        font-size: 32px;
+    }
+
+    .txt_deOndeVem {
+        width: 980px;
+    }
+
+    .txt_deOndeVem h1 {
+        margin-left: 10px;
+    }
+
+    .txt_porqueNosUsamos {
+        width: 960px;
+    }
+
+    .txt_porqueNosUsamos h1 {
+        margin-left: 10px;
+    }
+
+    .imgCCp-A {
+        margin-left: -140px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cuidadosDaPele h1 {
+        margin-left: 5px;
+    }
+    
+    .pt1 {
+        gap: 10px;
+    }
+
+    .txt_cuidadosPele h1 {
+        font-size: 40px;
+    }
+
+    .txt_cuidadosPele p {
+        margin-left: 60px;
+        width: 400px;
+        font-size: 28px;
+    }
+
+    .imgCCp-A {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pt1 {
+        margin-left: 180px;
+        display: inline-block;
+    }
+    
+    .cuidadosDaPele h1 {
+        font-size: 32px;
+    }
+
+    .txt_cuidadosPele {
+        margin-left: -50px;
+    }
+
+    .txt_cuidadosPele h1 {
+        font-size: 40px;
+    }
+
+    .txt_cuidadosPele p {
+        font-size: 24px;
+    }
+
+    .txt_deOndeVem {
+        width: 750px;
+    }
+
+    .txt_porqueNosUsamos h1 {
+        width: 820px;
+    }
+
+    .txt_porqueNosUsamos p {
+        width: 740px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cuidadosDaPele h1 {
+        margin-left: 10px;
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .pt1 {
+        margin-left: 55px;
+    }
+
+    .txt_cuidadosPele h1 {
+        margin-left: -10px;
+        font-size: 32px;
+    }
+
+    .txt_cuidadosPele p {
+        width: 400px;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .txt_deOndeVem p {
+        width: 450px;
+    }
+
+    .txt_porqueNosUsamos p {
+        width: 450px;
+    }
+}

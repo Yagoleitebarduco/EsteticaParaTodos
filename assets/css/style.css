@@ -1,0 +1,21 @@
+/*FORMATAÇÕES*/
+@import url(./utilities/formatacao.css);
+
+
+/*HEADER*/
+@import url(./global/header.css);
+
+/*CARROSSEL*/
+@import url(./home/carrossel.css);
+
+/*HOME*/
+@import url(./home/tiposDePele.css);
+
+@import url(./home/rotinasDaPele.css);
+
+@import url(./home/cuidadosDaPele.css);
+
+@import url(./home/deOndeVem.css);
+
+/*FOOTER*/
+@import url(./global/footer.css);

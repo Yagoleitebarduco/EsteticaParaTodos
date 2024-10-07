@@ -1,0 +1,256 @@
+.pele {
+    padding: 10px;
+    justify-content: center;
+    margin-left: 200px;
+    width: 1600px;
+}
+
+.tipos_pele {
+    text-align: center;
+    width: 1444px;
+    padding: 15px;
+}
+
+.tipos_pele h1 {
+    color: #738CCB;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.tipos_pele p {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.tipos_de_pele {
+    display: flex;
+    padding: 15px;
+    width: 276px;
+    height: 597px;
+    gap: 30px;
+}
+
+.bloco {
+    background-color: #B8C6E8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bloco h2 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.bloco p {
+    margin-top: 30px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.quiz {
+    padding: 20px;
+    margin-left: 110px;
+}
+
+.quiz h1 {
+    font-size: 32px;
+}
+
+.quiz a {
+    color: #738CCB;
+    text-decoration: none;
+}
+
+.quiz a:hover {
+    color: #B8C6E8;
+    transition: 0.1s;
+    border-bottom: #B8C6E8;
+}
+
+@media (max-width: 1280px) {
+    .pele {
+        margin-left: 50px;
+        width: 90%;
+    }
+
+    .tipos_de_pele {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .tipos_pele h1 {
+        margin-left: -600px;
+    }
+
+    .tipos_pele p {
+        font-size: 25px;
+        width: 700px;
+        margin-left: 50px;
+    }
+
+
+    .bloco {
+        width: 600px;
+        margin-left: -300px;
+    }
+
+    .bloco h2 {
+        font-size: 24px;
+    }
+
+    .bloco p {
+        font-size: 20px;
+    }
+
+    .quiz {
+        width: 900px;
+        margin-top: 1300px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .quiz h1 {
+        font-size: 28px;
+    }
+
+    hr {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pele {
+        width: 100%;
+    }
+
+    .tipos_de_pele {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .tipos_pele h1 {
+        font-size: 28px;
+    }
+
+    .tipos_pele p {
+        font-size: 18px;
+    }
+
+
+    .bloco {
+        margin-left: -160px;
+        width: 70%;
+    }
+
+    .bloco h2 {
+        font-size: 22px;
+    }
+
+    .bloco p {
+        font-size: 18px;
+    }
+
+    .quiz {
+        margin-left: -60px;
+        margin-top: 1200px;
+    }
+
+    .quiz h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pele {
+        margin-left: 0;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .tipos_pele h1 {
+        margin-left: -690px;
+        font-size: 24px;
+    }
+
+    .tipos_pele p {
+        margin-left: -1px;
+        font-size: 16px;
+    }
+
+    .tipos_de_pele {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .bloco {
+        margin-left: 8px;
+    }
+
+    .bloco h2 {
+        font-size: 20px;
+    }
+
+    .bloco p {
+        font-size: 16px;
+    }
+
+    .quiz {
+        margin-left: 80px;
+        width: 600px;
+    }
+
+    .quiz h1 {
+        font-size: 22px;
+    }
+
+    .hr_cuidadoPele {
+        width: 650px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pele {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .tipos_pele h1 {
+        margin-right: 250px;
+        font-size: 20px;
+    }
+
+    .tipos_pele p {
+        width: 400px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+
+    .bloco h2 {
+        font-size: 18px;
+    }
+
+    .bloco {
+        margin-left: 30px;
+    }
+
+    .bloco p {
+        font-size: 14px;
+    }
+
+    .quiz {
+        width: 400px;
+        margin-left: 45px;
+    }
+
+    .quiz h1 {
+        font-size: 20px;
+    }
+
+    .hr_cuidadoPele {
+        margin-left: 30px;
+        width: 440px;
+    }
+}
